@@ -1,5 +1,9 @@
 apply plugin: 'war'
 
+test {
+    exclude 'CustomersServiceTest.class'
+}
+
 repositories {
     mavenCentral()
 }
